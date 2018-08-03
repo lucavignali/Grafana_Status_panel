@@ -629,7 +629,7 @@ System.register(["app/plugins/sdk", "lodash", "app/core/time_series2", "app/core
 							});
 
 							if (filteredOutAlerts > 0) {
-								this.extraMoreAlerts = "+ " + filteredOutAlerts + " more";
+								this.extraMoreAlerts = " " + filteredOutAlerts + " ";
 							}
 						}
 					}
